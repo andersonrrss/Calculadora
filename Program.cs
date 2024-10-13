@@ -36,7 +36,8 @@ namespace Calculadora_Basica
                     deleteLine();
 
                     userInput = "";
-                    Console.Write("Expressão inválida");
+                    Console.Write("Ocorreu um erro ao efetuar o cálculo :/");
+
                     ErrorMessageShowed = true;
                 }
             }
